@@ -48,4 +48,8 @@ app.get("/api/v1/blog:id", (c) => {
   return c.text("Hello Hono!");
 });
 
+app.delete("/api/v1/blog:id", (c) => {
+	//deleting logic for blog
+  });
+
 export default app;
